@@ -1,0 +1,10 @@
+package br.com.mrb.loja.orcamento;
+
+import java.math.BigDecimal;
+
+public class Orcamento {
+	
+	private BigDecimal valor;
+	
+	
+}
