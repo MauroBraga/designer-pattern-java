@@ -1,0 +1,8 @@
+package br.com.mrb.loja.desconto;
+
+public abstract class Desconto {
+
+	private Desconto proximo;
+	
+	
+}
