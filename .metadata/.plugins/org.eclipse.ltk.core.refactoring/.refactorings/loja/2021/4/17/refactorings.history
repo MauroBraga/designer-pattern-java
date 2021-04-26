@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;br.com.mrb.loja.desconto.Desconto.calcular(...)&apos; to &apos;efetuarCalculo&apos;&#x0A;- Original project: &apos;loja&apos;&#x0A;- Original element: &apos;br.com.mrb.loja.desconto.Desconto.calcular(...)&apos;&#x0A;- Renamed element: &apos;br.com.mrb.loja.desconto.Desconto.efetuarCalculo(...)&apos;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;calcular&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;br.com.mrb.loja.desconto{Desconto.java[Desconto~calcular~QOrcamento;" name="efetuarCalculo" references="true" stamp="1619196661807" version="1.0"/>
+</session>

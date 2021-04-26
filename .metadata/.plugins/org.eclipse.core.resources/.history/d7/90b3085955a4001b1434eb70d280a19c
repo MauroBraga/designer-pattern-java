@@ -8,6 +8,7 @@ public class DescontoParaOrcamentoComValorMaiorQueQuinhentos extends Desconto{
 
 	public DescontoParaOrcamentoComValorMaiorQueQuinhentos(Desconto proximo) {
 		super(proximo);
+		// TODO Auto-generated constructor stub
 	}
 
 	public BigDecimal efetuarCalculo(Orcamento orcamento) {
