@@ -19,10 +19,14 @@ public class Orcamento {
 		if(situacao.equals("EM ANALISE")){
 			valorDoDesconto = new BigDecimal("0.05");
 		}
-		if(situacao.equals("APROVAR")){
+		if(situacao.equals("APROVADO")){
 			valorDoDesconto = new BigDecimal("0.01");
 		}
 		this.valor = this.valor.substract(valorDoDesconto);
+	}
+
+	public void aprovar(){
+		this.situacao = "APROVADO";
 	}
 
 	public BigDecimal getValor() {
