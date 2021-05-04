@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="br.com.mrb.loja.imposto.TipoImposto"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.imposto.ICMS"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.desconto.CalculadoraDeDesconto"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.Orcamento"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.DomainException"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.desconto.SemDesconto"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.Finalizado"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.SituacaoOrcamento"/>
-<fullyQualifiedTypeName name="java.math.BigDecimal"/>
-<fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.EmAnalise"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.imposto.TipoImposto"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.imposto.ICMS"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.desconto.CalculadoraDeDesconto"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.Orcamento"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.DomainException"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.desconto.SemDesconto"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.Finalizado"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.SituacaoOrcamento"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="br.com.mrb.loja.orcamento.situacao.EmAnalise"/>
 </qualifiedTypeNameHistroy>
