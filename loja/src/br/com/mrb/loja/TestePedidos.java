@@ -2,11 +2,14 @@ package br.com.mrb.loja;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.Arrays;
 
 import br.com.mrb.loja.orcamento.Orcamento;
 import br.com.mrb.loja.pedido.GeraPedido;
 import br.com.mrb.loja.pedido.GeraPedidoHandler;
 import br.com.mrb.loja.pedido.Pedido;
+import br.com.mrb.loja.pedido.acao.EnviarEmailPedido;
+import br.com.mrb.loja.pedido.acao.SalvarPedidoBancoDados;
 
 public class TestePedidos {
 
@@ -17,7 +20,9 @@ public class TestePedidos {
 		int quantidade = 2;
 		
 		GeraPedido gerador = new GeraPedido(cliente, valorOrcamento,quantidade);
-		GeraPedidoHandler handler = new GeraPedidoHandler();
+		GeraPedidoHandler handler = new GeraPedidoHandler(
+				Arrays.asList(new SalvarPedidoBancoDados(), new EnviarEmailPedido())
+				);
 		handler.execute(gerador);
 	}
 
